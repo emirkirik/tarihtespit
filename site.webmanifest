@@ -1,0 +1,8 @@
+{
+  "name": "TarihTespit",
+  "short_name": "TarihTespit",
+  "start_url": "/",
+  "display": "standalone",
+  "lang": "tr",
+  "description": "Tarihî Türkçe metinlerde anlam ve bağlam değişimini araştıran dijital tarih projesi."
+}
