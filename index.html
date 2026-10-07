@@ -62,14 +62,14 @@
             <span class="live-dot"><i></i> Araştırma sürümü</span>
           </div>
           <h1>Tarih, <em>kelimelerin</em><br />hafızasında saklıdır.</h1>
-          <p class="hero-lead">TarihTespit, tarihî Türkçe metinleri doğal dil işleme yöntemleriyle analiz ederek kelimelerin dönemden döneme değişen bağlamlarını görünür hâle getirmek için tasarlanıyor.</p>
+          <p class="hero-lead">TarihTespit, tarih boyunca kelimelerin değişen anlam ve bağlamlarını doğal dil işleme ile görünür hâle getirirken insanların bu dil değişimlerini ne kadar bildiğini araştırmak için tasarlanıyor.</p>
           <div class="hero-actions">
             <a class="btn primary" href="#analiz">Kelimeyi analiz et <span>↗</span></a>
             <a class="btn ghost" href="#nasil">Yöntemi gör</a>
           </div>
           <div class="hero-stats">
             <div><strong>5</strong><span>örnek dönem</span></div>
-            <div><strong>3</strong><span>demo kelime</span></div>
+            <div><strong>20</strong><span>demo kelime</span></div>
             <div><strong>01</strong><span>araştırma sorusu</span></div>
           </div>
         </div>
@@ -113,7 +113,7 @@
             <span class="eyebrow">01 / ETKİLEŞİMLİ ANALİZ</span>
             <h2>Bir kelimenin zaman içindeki izleri.</h2>
           </div>
-          <p>Kelimeyi seç. Demo verideki dönemsel değişimi, bağlam komşularını ve kaynak durumunu incele. Gerçek araştırma corpus'u sonraki aşamada bağlanacak.</p>
+          <p>Kelimeyi seç. Demo verideki dönemsel değişimi ve birlikte kullanıldığı kelimeleri incele. Gerçek araştırmada bu sonuçların insanların farkındalığıyla nasıl örtüştüğü ayrıca ölçülecek.</p>
         </div>
 
         <div class="search-panel">
@@ -129,8 +129,26 @@
             <button data-word="millet">millet</button>
             <button data-word="vatan">vatan</button>
             <button data-word="hürriyet">hürriyet</button>
+            <button data-word="devlet">devlet</button>
+            <button data-word="medeniyet">medeniyet</button>
+            <button data-word="maarif">maarif</button>
+            <button data-word="mektep">mektep</button>
+            <button data-word="adalet">adalet</button>
+            <button data-word="cumhuriyet">cumhuriyet</button>
+            <button data-word="meclis">meclis</button>
+            <button data-word="kanun">kanun</button>
+            <button data-word="halk">halk</button>
+            <button data-word="yurt">yurt</button>
+            <button data-word="inkılap">inkılap</button>
+            <button data-word="muallim">muallim</button>
+            <button data-word="talebe">talebe</button>
+            <button data-word="şehir">şehir</button>
+            <button data-word="memleket">memleket</button>
+            <button data-word="kültür">kültür</button>
+            <button data-word="eğitim">eğitim</button>
+            <button data-word="terakki">terakki</button>
           </div>
-          <div class="demo-warning"><strong>Demo veri.</strong> Bu sayı ve grafikler arayüzün çalışma mantığını göstermek için hazırlanmıştır; bilimsel sonuç değildir.</div>
+          <div class="demo-warning"><strong>Demo veri.</strong> Bu sayı ve grafikler yalnızca arayüzün çalışma mantığını göstermek için hazırlanmıştır; bilimsel sonuç değildir.</div>
         </div>
 
         <div id="results" class="results-grid">
@@ -192,11 +210,12 @@
           <div class="method-card dark-card"><span>02</span><div class="method-line"></div><h3>Metni hazırla</h3><p>OCR, yazım normalizasyonu ve veri temizleme adımlarıyla bilgisayar analizine uygun metin hazırlanır.</p></div>
           <div class="method-card dark-card"><span>03</span><div class="method-line"></div><h3>Dönemleri modelle</h3><p>Metinler dönemlere ayrılır; kelimelerin bağlamsal ilişkileri sayısal temsillere dönüştürülür.</p></div>
           <div class="method-card dark-card featured"><span>04</span><div class="method-line"></div><h3>Değişimi ölç</h3><p>Dönemsel temsiller karşılaştırılarak kelimenin bağlamındaki değişim için ölçülebilir bir skor üretilir.</p><b class="featured-mark">TT</b></div>
+          <div class="method-card dark-card awareness-card"><span>05</span><div class="method-line"></div><h3>Farkındalığı ölç</h3><p>Sonraki aşamada kullanıcı araştırmasıyla insanların tarihsel anlam ve kullanım değişimlerini ne kadar bildiği ölçülür.</p></div>
         </div>
 
         <div class="research-question">
           <div class="rq-mark">?</div>
-          <div><span>ARAŞTIRMA SORUSU</span><p>Tarihî Türkçe metinlerde kelimelerin zaman içinde değişen anlam ve bağlamları, doğal dil işleme ile otomatik ve nicel olarak tespit edilebilir mi?</p></div>
+          <div><span>ARAŞTIRMA SORUSU</span><p>İnsanlar, tarih boyunca kelimelerin değişen anlamlarını ve hangi kelimelerle birlikte kullanıldıklarının değiştiğini ne kadar biliyor?</p></div>
         </div>
       </div>
     </section>
@@ -210,8 +229,8 @@
         </div>
         <div class="problem-cards">
           <article><span>PROBLEM 01</span><h3>Tarihî metinlerin analizi zor.</h3><p>Dağınık, taranmış ve farklı dönemlere ait kaynakların büyük miktarda metin içermesi, manuel karşılaştırmayı zaman alıcı hâle getirir.</p></article>
-          <article><span>PROBLEM 02</span><h3>Anlam değişimi sayısallaştırılamıyor.</h3><p>Bir kelimenin farklı dönemlerdeki bağlam değişimi çoğu zaman nitel yorumlarla sınırlı kalır; dönemler arası nicel karşılaştırma zorlaşır.</p></article>
-          <article class="main-problem"><span>TEMEL PROBLEM</span><h3>Değişimi otomatik ve ölçülebilir hâle getirmek.</h3><p>Tarihî Türkçe metinlerde kelimelerin zaman içinde değişen anlam ve bağlamlarını doğal dil işleme ile otomatik, ölçülebilir ve görsel biçimde tespit etmek.</p></article>
+          <article><span>PROBLEM 02</span><h3>Dil değişimine dair farkındalığı ölçmek zor.</h3><p>İnsanların geçmişte kelimelerin anlam ve kullanım değişimlerini ne kadar bildiğini sistematik ve veri temelli biçimde değerlendirmek kolay değildir.</p></article>
+          <article class="main-problem"><span>TEMEL PROBLEM</span><h3>Değişimi tespit edip farkındalığı görünür kılmak.</h3><p>Tarihî Türkçe metinlerde kelimelerin zaman içindeki anlam ve bağlam değişimlerini ortaya çıkarmak ve insanların bu değişim hakkındaki bilgi düzeyini ölçülebilir verilerle incelemek.</p></article>
         </div>
       </div>
     </section>
