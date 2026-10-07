@@ -3,30 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TarihTespit — Tarihî Türkçenin Dijital Hafızası</title>
-  <meta name="description" content="TarihTespit, tarihî Türkçe metinlerde kelimelerin zaman içindeki anlam ve bağlam değişimlerini doğal dil işleme yöntemleriyle inceleyen TÜBİTAK proje prototipidir." />
-  <meta name="keywords" content="TarihTespit, tarihî Türkçe, NLP, doğal dil işleme, tarih, kelime anlamı, dijital tarih, TÜBİTAK 2204-A" />
+  <title>TarihTespit — Kelimelerin Tarihsel İzleri</title>
+  <meta name="description" content="TarihTespit; tarih boyunca kelimelerin değişen anlam ve bağlamlarını inceleyen ve insanların bu değişimleri ne kadar bildiğini araştıran dijital proje prototipidir." />
+  <meta name="keywords" content="TarihTespit, tarihî Türkçe, NLP, doğal dil işleme, kelime anlamı, tarih, dijital tarih, TÜBİTAK 2204-A" />
   <meta name="author" content="TarihTespit Proje Ekibi" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://tarihtespit.vercel.app/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="tr_TR" />
-  <meta property="og:title" content="TarihTespit — Tarihî Türkçenin Dijital Hafızası" />
-  <meta property="og:description" content="Tarihî Türkçe metinlerde kelimelerin dönemsel anlam ve bağlam değişimlerini doğal dil işleme ile görünür kılan araştırma prototipi." />
+  <meta property="og:title" content="TarihTespit — Kelimelerin Tarihsel İzleri" />
+  <meta property="og:description" content="Kelimelerin tarih boyunca anlam ve bağlam değişimini ve bu değişimlere ilişkin farkındalığı araştıran dijital proje." />
   <meta property="og:url" content="https://tarihtespit.vercel.app/" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="TarihTespit" />
-  <meta name="twitter:description" content="Tarihî Türkçenin dijital hafızasını veri ve doğal dil işleme ile araştıran TÜBİTAK proje prototipi." />
   <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
   <link rel="stylesheet" href="styles.css" />
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "TarihTespit",
-    "url": "https://tarihtespit.vercel.app/",
-    "inLanguage": "tr-TR",
-    "description": "Tarihî Türkçe metinlerde kelimelerin zaman içindeki anlam ve bağlam değişimlerini doğal dil işleme yöntemleriyle inceleyen proje prototipi."
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"TarihTespit",
+    "url":"https://tarihtespit.vercel.app/",
+    "inLanguage":"tr-TR",
+    "description":"Tarih boyunca kelimelerin değişen anlam ve bağlamlarını inceleyen ve tarihsel dil farkındalığını araştıran dijital proje."
   }
   </script>
 </head>
@@ -36,14 +33,12 @@
     <div class="container nav">
       <a class="brand" href="#top" aria-label="TarihTespit ana sayfa">
         <span class="brand-mark">TT</span>
-        <span>
-          <strong>TarihTespit</strong>
-          <small>Tarihî Türkçenin dijital hafızası</small>
-        </span>
+        <span><strong>TarihTespit</strong><small>Kelimelerin tarihsel izleri</small></span>
       </a>
       <nav>
         <a href="#analiz">Analiz</a>
-        <a href="#nasil">Nasıl çalışır?</a>
+        <a href="#farkindalik">Farkındalık</a>
+        <a href="#nasil">Yöntem</a>
         <a href="#proje">Proje</a>
         <a href="#kaynaklar">Kaynakça</a>
       </nav>
@@ -53,211 +48,90 @@
 
   <main>
     <section class="hero">
-      <div class="hero-orbit orbit-one"></div>
-      <div class="hero-orbit orbit-two"></div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <div class="eyebrow-row">
-            <span class="eyebrow">TÜBİTAK 2204-A • PROTOTİP</span>
-            <span class="live-dot"><i></i> Araştırma sürümü</span>
-          </div>
-          <h1>Tarih, <em>kelimelerin</em><br />hafızasında saklıdır.</h1>
-          <p class="hero-lead">TarihTespit, tarih boyunca kelimelerin değişen anlam ve bağlamlarını doğal dil işleme ile görünür hâle getirirken insanların bu dil değişimlerini ne kadar bildiğini araştırmak için tasarlanıyor.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#analiz">Kelimeyi analiz et <span>↗</span></a>
-            <a class="btn ghost" href="#nasil">Yöntemi gör</a>
-          </div>
-          <div class="hero-stats">
-            <div><strong>5</strong><span>örnek dönem</span></div>
-            <div><strong>20</strong><span>demo kelime</span></div>
-            <div><strong>01</strong><span>araştırma sorusu</span></div>
-          </div>
+          <div class="eyebrow-row"><span class="eyebrow">TÜBİTAK 2204-A • PROTOTİP</span><span class="live-dot"><i></i> Araştırma sürümü</span></div>
+          <h1>Kelimelerin<br /><em>tarihsel hafızasını</em> keşfet.</h1>
+          <p class="hero-lead">TarihTespit, tarih boyunca kelimelerin değişen anlam ve bağlamlarını veriyle incelemeyi ve insanların bu değişimleri ne kadar bildiğini araştırmayı amaçlayan dijital bir sistemdir.</p>
+          <div class="hero-actions"><a class="btn primary" href="#analiz">Kelimeyi analiz et <span>↗</span></a><a class="btn ghost" href="#farkindalik">Farkındalık araştırması</a></div>
+          <div class="hero-stats"><div><strong>50+</strong><span>araştırma kelimesi</span></div><div><strong>5</strong><span>örnek dönem</span></div><div><strong>2</strong><span>araştırma ayağı</span></div></div>
         </div>
-
-        <div class="archive-stage" aria-label="Tarihî belge görseli ve analiz paneli">
+        <div class="archive-stage" aria-label="Tarihî belge ve veri analizi görseli">
           <div class="paper-card back-card"></div>
           <div class="paper-card document-card">
-            <div class="document-header">
-              <span>ARŞİV NOTU</span>
-              <span>1900 — 2020</span>
-            </div>
+            <div class="document-header"><span>ARŞİV NOTU</span><span>1900 — 2020</span></div>
             <div class="document-rule"></div>
             <h3>Bir kelimenin izini sürmek</h3>
-            <p>“millet” kelimesinin farklı dönemlerde birlikte kullanıldığı kavramlar, metinler arası bağlam değişimini araştırmak için sayısal olarak modellenebilir.</p>
-            <div class="document-lines">
-              <i></i><i></i><i></i><i></i>
-            </div>
+            <p>Bir kelimenin yalnızca tanımı değil, hangi kelimelerle birlikte kullanıldığı da dönemden döneme değişebilir.</p>
+            <div class="document-lines"><i></i><i></i><i></i><i></i></div>
             <div class="document-tag">TARİH • DİL • VERİ</div>
           </div>
-          <div class="floating-analysis">
-            <div class="floating-top"><span>ANLAMSAL DEĞİŞİM</span><b>DEMO</b></div>
-            <div class="floating-score">0.78</div>
-            <div class="mini-bar"><span style="width:78%"></span></div>
-            <div class="floating-foot"><span>1900</span><span>2020</span></div>
-          </div>
-          <div class="stamp">KAYNAK<br />BAĞLANTILI</div>
+          <div class="floating-analysis"><div class="floating-top"><span>DEĞİŞİM SKORU</span><b>DEMO</b></div><div class="floating-score">0.78</div><div class="mini-bar"><span style="width:78%"></span></div><div class="floating-foot"><span>1900</span><span>2020</span></div></div>
+          <div class="stamp">KAYNAK<br />ODAKLI</div>
         </div>
       </div>
     </section>
 
-    <section class="marquee-strip" aria-label="Proje özellikleri">
-      <div class="marquee-inner">
-        <span>OCR</span><b>✦</b><span>NLP</span><b>✦</b><span>ZAMANSAL ANALİZ</span><b>✦</b><span>ANLAM DEĞİŞİMİ</span><b>✦</b><span>KAYNAKÇA</span><b>✦</b><span>OCR</span><b>✦</b><span>NLP</span><b>✦</b><span>ZAMANSAL ANALİZ</span>
-      </div>
-    </section>
+    <section class="marquee-strip" aria-label="Proje özellikleri"><div class="marquee-inner"><span>OCR</span><b>✦</b><span>NLP</span><b>✦</b><span>ZAMANSAL ANALİZ</span><b>✦</b><span>BAĞLAM</span><b>✦</b><span>FARKINDALIK</span><b>✦</b><span>KAYNAKÇA</span><b>✦</b><span>OCR</span><b>✦</b><span>NLP</span></div></section>
 
     <section id="analiz" class="analysis-section section-light">
       <div class="container">
-        <div class="section-heading">
-          <div>
-            <span class="eyebrow">01 / ETKİLEŞİMLİ ANALİZ</span>
-            <h2>Bir kelimenin zaman içindeki izleri.</h2>
-          </div>
-          <p>Kelimeyi seç. Demo verideki dönemsel değişimi ve birlikte kullanıldığı kelimeleri incele. Gerçek araştırmada bu sonuçların insanların farkındalığıyla nasıl örtüştüğü ayrıca ölçülecek.</p>
-        </div>
-
+        <div class="section-heading"><div><span class="eyebrow">01 / KELİME ANALİZİ</span><h2>Bir kelimenin zaman içindeki izi.</h2></div><p>Demo veri üzerinde farklı kelimeleri karşılaştır. Gerçek araştırmada aynı ekran, oluşturacağımız tarihî metin veri seti ve NLP yöntemiyle beslenecek.</p></div>
         <div class="search-panel">
-          <div class="search-label-wrap">
-            <label for="wordInput">Araştırma kelimesi</label>
-            <span>Demo corpus</span>
-          </div>
-          <div class="search-row">
-            <div class="input-wrap"><span>⌕</span><input id="wordInput" type="text" value="millet" autocomplete="off" aria-label="Analiz edilecek kelime" /></div>
-            <button id="analyzeBtn" class="btn primary">Analiz et <span>→</span></button>
-          </div>
-          <div class="suggestions" id="suggestions">
-            <button data-word="millet">millet</button>
-            <button data-word="vatan">vatan</button>
-            <button data-word="hürriyet">hürriyet</button>
-            <button data-word="devlet">devlet</button>
-            <button data-word="medeniyet">medeniyet</button>
-            <button data-word="maarif">maarif</button>
-            <button data-word="mektep">mektep</button>
-            <button data-word="adalet">adalet</button>
-            <button data-word="cumhuriyet">cumhuriyet</button>
-            <button data-word="meclis">meclis</button>
-            <button data-word="kanun">kanun</button>
-            <button data-word="halk">halk</button>
-            <button data-word="yurt">yurt</button>
-            <button data-word="inkılap">inkılap</button>
-            <button data-word="muallim">muallim</button>
-            <button data-word="talebe">talebe</button>
-            <button data-word="şehir">şehir</button>
-            <button data-word="memleket">memleket</button>
-            <button data-word="kültür">kültür</button>
-            <button data-word="eğitim">eğitim</button>
-            <button data-word="terakki">terakki</button>
-          </div>
-          <div class="demo-warning"><strong>Demo veri.</strong> Bu sayı ve grafikler yalnızca arayüzün çalışma mantığını göstermek için hazırlanmıştır; bilimsel sonuç değildir.</div>
+          <div class="search-label-wrap"><label for="wordInput">Araştırma kelimesi</label><span id="wordCountLabel">50+ demo kelime</span></div>
+          <div class="search-row"><div class="input-wrap"><span>⌕</span><input id="wordInput" type="text" value="millet" autocomplete="off" aria-label="Analiz edilecek kelime" /><div id="suggestionDropdown" class="suggestion-dropdown" hidden></div></div><button id="analyzeBtn" class="btn primary">Analiz et <span>→</span></button></div>
+          <div class="suggestions" id="suggestions"></div>
+          <div class="demo-warning"><strong>Demo veri.</strong> Aşağıdaki puanlar ve grafikler bilimsel sonuç değildir; gerçek corpus bağlandığında araştırma verileriyle değişecektir.</div>
         </div>
-
         <div id="results" class="results-grid">
-          <article class="panel score-panel">
-            <div class="panel-head">
-              <div>
-                <span class="panel-kicker">ZAMANSAL DEĞİŞİM SKORU</span>
-                <h3 id="resultTitle">“millet” için anlamsal değişim</h3>
-              </div>
-              <span id="changeBadge" class="badge">0.78</span>
-            </div>
-            <div class="chart-card">
-              <canvas id="changeChart" height="240"></canvas>
-            </div>
-            <div class="metric-row">
-              <div><span>En hızlı değişim</span><strong id="fastPeriod">1960 → 2000</strong></div>
-              <div><span>En güçlü bağlam</span><strong id="topContext">vatandaş</strong></div>
-              <div><span>İncelenen dönem</span><strong>1900–2020</strong></div>
-            </div>
-          </article>
-
-          <article class="panel context-panel">
-            <div class="panel-head">
-              <div>
-                <span class="panel-kicker">BAĞLAM AĞI</span>
-                <h3>Kelimenin yakın çevresi</h3>
-              </div>
-              <span class="mini-status">DEMO</span>
-            </div>
-            <div id="contextNetwork" class="context-network"></div>
-            <p class="panel-note">Bağlar, kelimenin birlikte görüldüğü örnek bağlamları ve ağırlıklarını temsil eder.</p>
-          </article>
+          <article class="panel score-panel"><div class="panel-head"><div><span class="panel-kicker">ZAMANSAL DEĞİŞİM SKORU</span><h3 id="resultTitle">“millet” için dönemsel anlam ve bağlam değişimi</h3></div><span id="changeBadge" class="badge">0.78</span></div><div class="chart-card"><canvas id="changeChart" height="240"></canvas></div><div class="metric-row"><div><span>En hızlı değişim</span><strong id="fastPeriod">1960 → 2000</strong></div><div><span>En güçlü bağlam</span><strong id="topContext">vatandaş</strong></div><div><span>İncelenen dönem</span><strong>1900–2020</strong></div></div></article>
+          <article class="panel context-panel"><div class="panel-head"><div><span class="panel-kicker">BAĞLAM AĞI</span><h3>Kelimenin yakın çevresi</h3></div><span class="mini-status">DEMO</span></div><div id="contextNetwork" class="context-network"></div><p class="panel-note">Bağlar, seçilen kelimenin örnek bağlamlarını ve temsili ağırlıklarını gösterir.</p></article>
         </div>
+        <div class="source-card" id="sourceCard"><div class="source-icon">⌁</div><div class="source-copy"><span class="panel-kicker">KAYNAK DURUMU</span><h3 id="sourceTitle">Araştırma corpus'u bağlandığında kaynak gösterilecek.</h3><p id="sourceText">Demo sonuçları gerçek arşiv kayıtlarına bağlı değildir.</p></div><a class="text-link" href="#kaynaklar">Kaynakçaya git →</a></div>
+      </div>
+    </section>
 
-        <div class="source-card" id="sourceCard">
-          <div class="source-icon">⌁</div>
-          <div class="source-copy">
-            <span class="panel-kicker">KAYNAK DURUMU</span>
-            <h3 id="sourceTitle">Araştırma corpus'u bağlandığında kaynak gösterilecek.</h3>
-            <p id="sourceText">Demo sonuçları henüz gerçek arşiv kayıtlarıyla eşleştirilmemiştir. Nihai sürümde her bulgunun yayın, tarih ve mümkün olduğunda sayfa/belge bağlantısı tutulacaktır.</p>
-          </div>
-          <a class="text-link" id="sourceLink" href="#kaynaklar">Kaynakçaya git →</a>
+    <section id="farkindalik" class="awareness-section section-paper">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">02 / FARKINDALIK ARAŞTIRMASI</span><h2>İnsanlar tarihsel değişimi<br /><em>ne kadar biliyor?</em></h2></div><p>Projenin ikinci ayağı: kullanıcı, bir kelimenin geçmişte hangi anlam ve bağlamlarla ilişkilendirildiğini tahmin eder. Bu bölüm bir araştırma prototipidir; gerçek katılımcı çalışması ayrı izin ve yöntem süreciyle yürütülecektir.</p></div>
+        <div class="quiz-shell">
+          <div class="quiz-top"><div><span class="panel-kicker">PROTOTİP TEST</span><h3 id="quizQuestionTitle">“millet” kelimesinin 1900–1930 dönemindeki yakın bağlamını seç.</h3></div><span id="quizStep" class="quiz-step">1 / 6</span></div>
+          <div id="quizOptions" class="quiz-options"></div>
+          <div id="quizFeedback" class="quiz-feedback" hidden></div>
+          <div class="quiz-actions"><button id="quizNext" class="btn primary" disabled>Sonraki soru →</button><button id="quizReset" class="btn ghost">Baştan başla</button></div>
+          <div class="quiz-score"><div><span>Kişisel prototip skoru</span><strong id="quizScore">0%</strong></div><div class="score-track"><span id="quizScoreBar" style="width:0%"></span></div><small>Bu skor yalnızca bu demo testindeki kullanıcı tahminini gösterir; toplum geneli sonucu değildir.</small></div>
         </div>
+        <div class="research-cards"><article><span>ÖLÇÜM A</span><h3>Doğru bağlam tahmini</h3><p>Kullanıcının tarihî metin analizinden elde edilen yakın kelime ilişkilerini tahmin etme başarısı ölçülebilir.</p></article><article><span>ÖLÇÜM B</span><h3>Anlam değişimini fark etme</h3><p>Kullanıcı, aynı kelimenin farklı dönemlerdeki kullanımını karşılaştırarak değişim olup olmadığını ve yönünü tahmin eder.</p></article><article><span>ÖLÇÜM C</span><h3>İnsan–veri karşılaştırması</h3><p>Toplanan katılımcı sonuçları, NLP analizinin gösterdiği tarihsel bağlam değişimleriyle karşılaştırılabilir.</p></article></div>
       </div>
     </section>
 
     <section id="nasil" class="method-section section-dark">
       <div class="container">
-        <div class="section-heading dark-heading">
-          <div>
-            <span class="eyebrow">02 / YÖNTEM</span>
-            <h2>Arayüz değil, bilimsel yöntem merkezde.</h2>
-          </div>
-          <p>TarihTespit'in web sitesi, geliştirilecek veri işleme ve zamansal anlam analizinin sonuçlarını görünür hâle getiren katmandır.</p>
-        </div>
-
+        <div class="section-heading dark-heading"><div><span class="eyebrow">03 / YÖNTEM</span><h2>İki araştırma ayağı, tek sistem.</h2></div><p>TarihTespit'in web sitesi yalnızca bir arayüz değil; veri hazırlama, NLP analizi ve farkındalık ölçümü için geliştirilecek yöntemin çıktısını gösteren prototiptir.</p></div>
         <div class="method-grid">
-          <div class="method-card dark-card"><span>01</span><div class="method-line"></div><h3>Metni topla</h3><p>Gazete, kitap ve süreli yayınlardan araştırma kapsamına uygun tarihî Türkçe metin corpus'u oluşturulur.</p></div>
-          <div class="method-card dark-card"><span>02</span><div class="method-line"></div><h3>Metni hazırla</h3><p>OCR, yazım normalizasyonu ve veri temizleme adımlarıyla bilgisayar analizine uygun metin hazırlanır.</p></div>
-          <div class="method-card dark-card"><span>03</span><div class="method-line"></div><h3>Dönemleri modelle</h3><p>Metinler dönemlere ayrılır; kelimelerin bağlamsal ilişkileri sayısal temsillere dönüştürülür.</p></div>
-          <div class="method-card dark-card featured"><span>04</span><div class="method-line"></div><h3>Değişimi ölç</h3><p>Dönemsel temsiller karşılaştırılarak kelimenin bağlamındaki değişim için ölçülebilir bir skor üretilir.</p><b class="featured-mark">TT</b></div>
-          <div class="method-card dark-card awareness-card"><span>05</span><div class="method-line"></div><h3>Farkındalığı ölç</h3><p>Sonraki aşamada kullanıcı araştırmasıyla insanların tarihsel anlam ve kullanım değişimlerini ne kadar bildiği ölçülür.</p></div>
+          <div class="method-card dark-card"><span>01</span><div class="method-line"></div><h3>Metinleri topla</h3><p>Gazete, kitap ve süreli yayınlardan araştırma kapsamına uygun tarihî Türkçe corpus hazırlanır.</p></div>
+          <div class="method-card dark-card"><span>02</span><div class="method-line"></div><h3>Metni hazırla</h3><p>OCR, veri temizleme ve gerektiğinde tarihsel yazım normalizasyonu ile metin analize hazırlanır.</p></div>
+          <div class="method-card dark-card"><span>03</span><div class="method-line"></div><h3>Bağlamı modelle</h3><p>Dönemlere ayrılan metinlerde kelimelerin birlikte kullanıldığı sözcük ilişkileri sayısal olarak çıkarılır.</p></div>
+          <div class="method-card dark-card featured"><span>04</span><div class="method-line"></div><h3>Değişimi ölç</h3><p>Dönemsel temsiller karşılaştırılarak kelimenin bağlamsal değişimi için ölçülebilir bir skor tasarlanır.</p><b class="featured-mark">TT</b></div>
+          <div class="method-card dark-card awareness-card"><span>05</span><div class="method-line"></div><h3>Farkındalığı ölç</h3><p>Katılımcıların tahminleri, tarihî metinlerden elde edilen referans sonuçlarla karşılaştırılır.</p></div>
         </div>
-
-        <div class="research-question">
-          <div class="rq-mark">?</div>
-          <div><span>ARAŞTIRMA SORUSU</span><p>İnsanlar, tarih boyunca kelimelerin değişen anlamlarını ve hangi kelimelerle birlikte kullanıldıklarının değiştiğini ne kadar biliyor?</p></div>
-        </div>
+        <div class="research-question"><div class="rq-mark">?</div><div><span>ARAŞTIRMA SORUSU</span><p>İnsanlar, tarih boyunca kelimelerin değişen anlamlarını ve hangi kelimelerle birlikte kullanıldıklarının değiştiğini ne kadar biliyor?</p></div></div>
       </div>
     </section>
 
     <section id="proje" class="project-section section-paper">
-      <div class="container project-layout">
-        <div class="project-intro">
-          <span class="eyebrow">03 / PROJE ÇERÇEVESİ</span>
-          <h2>İki problem.<br /><em>Tek araştırma.</em></h2>
-          <p>TarihTespit'in amacı yalnızca güzel bir site yapmak değil; tarihsel metinleri sayısal olarak karşılaştırılabilir hâle getirmek ve bu süreci kaynaklarıyla görünür kılmaktır.</p>
-        </div>
-        <div class="problem-cards">
-          <article><span>PROBLEM 01</span><h3>Tarihî metinlerin analizi zor.</h3><p>Dağınık, taranmış ve farklı dönemlere ait kaynakların büyük miktarda metin içermesi, manuel karşılaştırmayı zaman alıcı hâle getirir.</p></article>
-          <article><span>PROBLEM 02</span><h3>Dil değişimine dair farkındalığı ölçmek zor.</h3><p>İnsanların geçmişte kelimelerin anlam ve kullanım değişimlerini ne kadar bildiğini sistematik ve veri temelli biçimde değerlendirmek kolay değildir.</p></article>
-          <article class="main-problem"><span>TEMEL PROBLEM</span><h3>Değişimi tespit edip farkındalığı görünür kılmak.</h3><p>Tarihî Türkçe metinlerde kelimelerin zaman içindeki anlam ve bağlam değişimlerini ortaya çıkarmak ve insanların bu değişim hakkındaki bilgi düzeyini ölçülebilir verilerle incelemek.</p></article>
-        </div>
-      </div>
+      <div class="container project-layout"><div class="project-intro"><span class="eyebrow">04 / PROJE ÇERÇEVESİ</span><h2>İki problem.<br /><em>Tek araştırma.</em></h2><p>TarihTespit, tarihî metinlerin büyük ölçekte karşılaştırılmasını kolaylaştırırken insanların tarihsel dil değişimine ilişkin farkındalığını da veri temelli biçimde incelemeyi hedefler.</p></div><div class="problem-cards"><article><span>PROBLEM 01</span><h3>Tarihî metinlerin karşılaştırılması zor.</h3><p>Dağınık ve taranmış kaynaklarda aynı kelimenin farklı dönemlerdeki bağlamlarını manuel olarak karşılaştırmak zaman alıcıdır.</p></article><article><span>PROBLEM 02</span><h3>Tarihsel dil değişimine ilişkin farkındalığı ölçmek zor.</h3><p>İnsanların geçmişteki kelime anlam ve kullanım değişimlerini ne kadar bildiğini sistematik biçimde ölçmek için özel bir dijital yöntem gerekir.</p></article><article class="main-problem"><span>TEMEL PROBLEM</span><h3>Değişimi tespit etmek ve farkındalığı ölçmek.</h3><p>Tarihî Türkçe metinlerde kelimelerin anlam ve bağlam değişimini ortaya çıkarmak; ardından insanların bu değişimler hakkındaki bilgi düzeyini ölçülebilir verilerle karşılaştırmak.</p></article></div></div>
     </section>
 
-    <section id="kaynaklar" class="sources-section section-light">
-      <div class="container">
-        <div class="section-heading">
-          <div><span class="eyebrow">04 / KAYNAKÇA</span><h2>Sonuç kadar kaynak da önemli.</h2></div>
-          <p>Gerçek analizlerde kullanılan her veri kaynağı kayıt altına alınacak, ilgili bulguya bağlanacak ve kullanım koşullarına uygun biçimde gösterilecektir.</p>
-        </div>
-        <div class="source-list">
-          <article class="source-item"><div class="source-number">01</div><div><h3>Atatürk Kitaplığı — Süreli Yayınlar</h3><p>Dijitalleştirilmiş gazete ve dergiler, tarihî Türkçe corpus'u oluşturmak için araştırılabilecek kaynaklar arasındadır.</p><a href="https://ataturkkitapligi.ibb.gov.tr/tr/Kitaplik/Koleksiyonlar/Sureli-Yayinlar/25" target="_blank" rel="noopener">Koleksiyonu incele ↗</a></div></article>
-          <article class="source-item"><div class="source-number">02</div><div><h3>Atatürk Kitaplığı — Açık Erişim ve Dijitalleştirme Politikası</h3><p>Arşiv içeriklerinin kullanım ve atıf koşullarını belirlemek için temel başvuru kaynağı.</p><a href="https://ataturkkitapligi.ibb.gov.tr/tr/Kitaplik/Hakkinda/Dijitallestirme-ve-Acik-Erisim-Politikasi/105" target="_blank" rel="noopener">Politikayı incele ↗</a></div></article>
-          <article class="source-item"><div class="source-number">03</div><div><h3>RumeliDE — Tarihî Türkçe metinlerde metin madenciliği</h3><p>Tarihî Türkçe metinlerin NLP, metin madenciliği ve anlamsal ağlarla incelenmesine örnek akademik çalışma.</p><a href="https://dergipark.org.tr/tr/pub/rumelide/article/1330375" target="_blank" rel="noopener">Çalışmayı incele ↗</a></div></article>
-          <article class="source-item"><div class="source-number">04</div><div><h3>TÜBİTAK 2204-A — Lise Öğrencileri Araştırma Projeleri</h3><p>Yarışmanın güncel başvuru, alan ve proje koşulları için resmî kaynak.</p><a href="https://tubitak.gov.tr/tr/yarismalar/2204-lise-ogrencileri-arastirma-projeleri-yarismasi" target="_blank" rel="noopener">TÜBİTAK'a git ↗</a></div></article>
-        </div>
-      </div>
-    </section>
+    <section id="kaynaklar" class="sources-section section-light"><div class="container"><div class="section-heading"><div><span class="eyebrow">05 / KAYNAKÇA</span><h2>Sonuç kadar kaynak da önemli.</h2></div><p>Gerçek araştırma sürümünde kullanılan her metin ve veri kaynağı, mümkün olan en ayrıntılı bibliyografik bilgilerle sonuçlara bağlanacaktır.</p></div><div class="source-list">
+      <article class="source-item"><div class="source-number">01</div><div><h3>Atatürk Kitaplığı — Süreli Yayınlar</h3><p>Dijitalleştirilmiş gazete ve dergiler, tarihî Türkçe corpus'u oluşturmak için değerlendirilebilecek bir arşiv kaynağıdır.</p><a href="https://ataturkkitapligi.ibb.gov.tr/tr/Kitaplik/Koleksiyonlar/Sureli-Yayinlar/25" target="_blank" rel="noopener">Koleksiyonu incele ↗</a></div></article>
+      <article class="source-item"><div class="source-number">02</div><div><h3>Atatürk Kitaplığı — Dijitalleştirme ve Açık Erişim Politikası</h3><p>Arşiv içeriğinin kullanım ve atıf koşullarını kontrol etmek için temel kaynak.</p><a href="https://ataturkkitapligi.ibb.gov.tr/tr/Kitaplik/Hakkinda/Dijitallestirme-ve-Acik-Erisim-Politikasi/105" target="_blank" rel="noopener">Politikayı incele ↗</a></div></article>
+      <article class="source-item"><div class="source-number">03</div><div><h3>RumeliDE — Tarihî Türkçe metinlerde metin madenciliği</h3><p>Tarihî Türkçe metinlerin metin madenciliği, NLP ve anlamsal ağlarla incelenmesine örnek akademik çalışma.</p><a href="https://dergipark.org.tr/tr/pub/rumelide/article/1330375" target="_blank" rel="noopener">Çalışmayı incele ↗</a></div></article>
+      <article class="source-item"><div class="source-number">04</div><div><h3>TÜBİTAK 2204-A</h3><p>Yarışmanın güncel başvuru ve proje koşulları için resmî kaynak.</p><a href="https://tubitak.gov.tr/tr/yarismalar/2204-lise-ogrencileri-arastirma-projeleri-yarismasi" target="_blank" rel="noopener">TÜBİTAK'a git ↗</a></div></article>
+    </div></div></section>
   </main>
-
-  <footer>
-    <div class="container footer-inner">
-      <div><strong>TarihTespit</strong><span>• TÜBİTAK 2204-A proje prototipi</span></div>
-      <div class="footer-right"><span>Demo arayüz • Bilimsel sonuç değildir.</span><a href="#top">Yukarı ↑</a></div>
-    </div>
-  </footer>
-
+  <footer><div class="container footer-inner"><div><strong>TarihTespit</strong><span>• TÜBİTAK 2204-A proje prototipi</span></div><div class="footer-right"><span>Demo arayüz • Bilimsel sonuç değildir.</span><a href="#top">Yukarı ↑</a></div></div></footer>
   <script src="app.js"></script>
 </body>
 </html>
