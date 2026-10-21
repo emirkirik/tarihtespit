@@ -1,14 +1,16 @@
-TARİHTESPİT — GERÇEK VERİ BAĞLANTISI AŞAMA 1
+TARIHTESPIT V4
 
-Bu sürüm, sayfa açıldığında Turkronicles deposundaki pairs_synonyms_new.txt dosyasını fetch() ile yükler. İnternet/kaynak erişimi başarısız olursa, kaynak dosyasından doğrulanmış sınırlı bir örnek dilim (data/pairs_sample.json) kullanılır ve durum etiketi bunu açıkça belirtir.
+1) ZIP dosyasini cikart.
+2) Klasorun icindeki index.html dosyasina cift tikla.
+3) Site tarayicida acilir; internet baglantisi gerektirmez.
+4) Vercel/GitHub Pages icin index.html dosyasini proje klasorune koyup yayinlayabilirsin.
 
-Canlı veri kaynağı:
-https://github.com/togayyazar/Turkronicles/blob/master/pairs_synonyms_new.txt
+V4 yenilikleri:
+- 200 kelimelik aranabilir arşiv.
+- Her turda 15 soruluk test; toplam 20 farklı soru havuzu.
+- Test bitince yeni turda soru sırası ve soru seçimi yenilenir.
+- Yanıt açıklamaları ve puan takibi.
+- Mobil uyumlu tasarım; sayfanın büyüyerek sonsuz ölçeklenmesini önlemek için sabit responsive düzen.
 
-Geniş dönemsel veri kümesi:
-https://zenodo.org/records/15766757
-
-ÖNEMLİ SINIRLAMA:
-Bu ilk veri bağlantısı tarihsel/güncel sözcük eşleştirme dosyasını gösterir. Tek başına kelimelerin hangi on yılda hangi kelimelerle ne sıklıkta birlikte geçtiğini vermez. Bunun için Turkronicles n-gram dosyalarından gerekli dönemleri seçip ayrıca işlemek gerekir. Bu nedenle bu sürümde uydurma zamansal skorlar veya bağlam sıklığı grafikleri gösterilmez.
-
-Mini test, bağlı eşleştirme dosyasından üretilir ve yalnızca kişisel prototip skorudur; toplum geneli sonucu değildir.
+Araştırma notu:
+Arşivdeki kelimeler ve kısa notlar araştırma adaylarıdır. Bilimsel raporda her tarihî anlam, tarihli metin ve güvenilir sözlük/akademik kaynakla doğrulanmalıdır. Test soruları eğitim amaçlıdır; demo sonuçları bilimsel bulgu değildir.
