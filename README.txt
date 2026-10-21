@@ -1,16 +1,13 @@
-TARIHTESPIT V4
+TarihTespit V5 — yerel web prototipi
 
-1) ZIP dosyasini cikart.
-2) Klasorun icindeki index.html dosyasina cift tikla.
-3) Site tarayicida acilir; internet baglantisi gerektirmez.
-4) Vercel/GitHub Pages icin index.html dosyasini proje klasorune koyup yayinlayabilirsin.
+KULLANIM
+1. index.html dosyasını tarayıcıda açın.
+2. Kelime arşivinde arama kutusunu kullanın.
+3. Arşiv alanında fare tekerleği veya kaydırma çubuğuyla gezinin. Orta fare tuşunu basılı tutup yukarı/aşağı hareket ederek de kaydırabilirsiniz.
+4. Bilgi testi arşivin altındadır; her turda 15 soru sorulur.
 
-V4 yenilikleri:
-- 200 kelimelik aranabilir arşiv.
-- Her turda 15 soruluk test; toplam 20 farklı soru havuzu.
-- Test bitince yeni turda soru sırası ve soru seçimi yenilenir.
-- Yanıt açıklamaları ve puan takibi.
-- Mobil uyumlu tasarım; sayfanın büyüyerek sonsuz ölçeklenmesini önlemek için sabit responsive düzen.
+İÇERİK NOTU
+Arşivde 400 kelime kaydı bulunur. Açıklamalar kısa tanıtım ve araştırma başlangıcı içindir; tarihî anlam ve kullanım iddiaları güvenilir sözlükler ve tarihli kaynak metinlerle doğrulanmalıdır. Bu prototip tek başına gerçek derlem analizi veya anket sonucu sunmaz.
 
-Araştırma notu:
-Arşivdeki kelimeler ve kısa notlar araştırma adaylarıdır. Bilimsel raporda her tarihî anlam, tarihli metin ve güvenilir sözlük/akademik kaynakla doğrulanmalıdır. Test soruları eğitim amaçlıdır; demo sonuçları bilimsel bulgu değildir.
+DOSYALAR
+- index.html: CSS, JavaScript ve kelime verileri dâhil tek sayfalık site.
