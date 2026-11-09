@@ -1,17 +1,17 @@
-TARIHTESPIT V6
+TarihTespit V6 — açıklama durumu düzeltilmiş sürüm
 
-1) ZIP dosyasini cikartin.
-2) Klasordeki index.html dosyasina cift tiklayin.
-3) Site tarayicida acilir.
-4) GitHub/Vercel icin index.html dosyasini mevcut projenizdeki dosyayla degistirip commit edin.
+Bu pakette arşivdeki genel/otomatik açıklama metinleri kaldırılmıştır.
+Kaynağı doğrulanmamış kelimelerde artık genel bir anlam varmış gibi görünen
+metin yerine şu uyarı gösterilir: “Bu kelime için henüz kaynaklarla
+doğrulanmış ayrıntılı anlam açıklaması eklenmemiştir.”
 
-V6 yenilikleri:
-- 2.000 benzersiz kelime ve sozcuk oge kaydi.
-- Turkce alfabetik siralama ve arama.
-- Tek satirli, kaydirilabilir kelime arsivi.
-- Arsiv icinde orta fare tusuyla surukleyerek kaydirma.
-- Test bolumu kelime arsivinin altinda.
-- Daha buyuk arayuz bilesenleri.
+Önemli veri notu:
+Arşivde 2.000 kelime kaydı bulunmaktadır. Bunların önemli bir bölümünde
+özgün, kaynakla doğrulanmış anlam açıklaması henüz yoktur. Bu düzeltme
+eksik kelimelere uydurma anlam eklemez; eksikliği kullanıcıya açıkça gösterir.
+Tarihî anlam iddiası için TDK tarihî sözlükleri ve tarihli metin örnekleri
+üzerinden ayrı ayrı doğrulama yapılmalıdır.
 
-Veri notu:
-Arsivde onceki surumden gelen kelime notlari ile yeni eklenen genel soz varligi adaylari bulunur. Yeni eklenen kayitlarin bir bolumu sozluk ve tarihî metinlerle tek tek dogrulanmayi bekleyen adaylardir. Bu nedenle bu kayitlar tarihî anlam veya tarihî kullanım kaniti olarak kullanilmamalidir. TÜBITAK raporunda bulgu olarak sunulmadan once TDK sozlukleri ve tarihli metinlerle kontrol edilmelidir.
+Kullanım:
+ZIP dosyasını çıkarıp içindeki TarihTespit_V6/index.html dosyasını tarayıcıda
+açabilir veya GitHub deposundaki index.html dosyasıyla değiştirebilirsin.
