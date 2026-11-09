@@ -1,16 +1,17 @@
-TARIHTESPIT V4
+TARIHTESPIT V6
 
-1) ZIP dosyasini cikart.
-2) Klasorun icindeki index.html dosyasina cift tikla.
-3) Site tarayicida acilir; internet baglantisi gerektirmez.
-4) Vercel/GitHub Pages icin index.html dosyasini proje klasorune koyup yayinlayabilirsin.
+1) ZIP dosyasini cikartin.
+2) Klasordeki index.html dosyasina cift tiklayin.
+3) Site tarayicida acilir.
+4) GitHub/Vercel icin index.html dosyasini mevcut projenizdeki dosyayla degistirip commit edin.
 
-V4 yenilikleri:
-- 200 kelimelik aranabilir arşiv.
-- Her turda 15 soruluk test; toplam 20 farklı soru havuzu.
-- Test bitince yeni turda soru sırası ve soru seçimi yenilenir.
-- Yanıt açıklamaları ve puan takibi.
-- Mobil uyumlu tasarım; sayfanın büyüyerek sonsuz ölçeklenmesini önlemek için sabit responsive düzen.
+V6 yenilikleri:
+- 2.000 benzersiz kelime ve sozcuk oge kaydi.
+- Turkce alfabetik siralama ve arama.
+- Tek satirli, kaydirilabilir kelime arsivi.
+- Arsiv icinde orta fare tusuyla surukleyerek kaydirma.
+- Test bolumu kelime arsivinin altinda.
+- Daha buyuk arayuz bilesenleri.
 
-Araştırma notu:
-Arşivdeki kelimeler ve kısa notlar araştırma adaylarıdır. Bilimsel raporda her tarihî anlam, tarihli metin ve güvenilir sözlük/akademik kaynakla doğrulanmalıdır. Test soruları eğitim amaçlıdır; demo sonuçları bilimsel bulgu değildir.
+Veri notu:
+Arsivde onceki surumden gelen kelime notlari ile yeni eklenen genel soz varligi adaylari bulunur. Yeni eklenen kayitlarin bir bolumu sozluk ve tarihî metinlerle tek tek dogrulanmayi bekleyen adaylardir. Bu nedenle bu kayitlar tarihî anlam veya tarihî kullanım kaniti olarak kullanilmamalidir. TÜBITAK raporunda bulgu olarak sunulmadan once TDK sozlukleri ve tarihli metinlerle kontrol edilmelidir.
