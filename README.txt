@@ -1,17 +1,19 @@
-TarihTespit V6 — açıklama durumu düzeltilmiş sürüm
+TARIHTESPIT V7
 
-Bu pakette arşivdeki genel/otomatik açıklama metinleri kaldırılmıştır.
-Kaynağı doğrulanmamış kelimelerde artık genel bir anlam varmış gibi görünen
-metin yerine şu uyarı gösterilir: “Bu kelime için henüz kaynaklarla
-doğrulanmış ayrıntılı anlam açıklaması eklenmemiştir.”
+1) ZIP dosyasini cikart.
+2) Klasorun icindeki index.html dosyasina cift tikla.
+3) Site tarayicida acilir; internet baglantisi gerektirmez.
+4) Vercel/GitHub Pages icin index.html dosyasini proje klasorune koyup yayinlayabilirsin.
 
-Önemli veri notu:
-Arşivde 2.000 kelime kaydı bulunmaktadır. Bunların önemli bir bölümünde
-özgün, kaynakla doğrulanmış anlam açıklaması henüz yoktur. Bu düzeltme
-eksik kelimelere uydurma anlam eklemez; eksikliği kullanıcıya açıkça gösterir.
-Tarihî anlam iddiası için TDK tarihî sözlükleri ve tarihli metin örnekleri
-üzerinden ayrı ayrı doğrulama yapılmalıdır.
+V7 içeriği:
+- 200 kelimelik aranabilir arşiv.
+- Her turda 15 soruluk test; toplam 20 farklı soru havuzu.
+- Test bitince yeni turda soru sırası ve soru seçimi yenilenir.
+- Yanıt açıklamaları ve puan takibi.
+- Mobil uyumlu tasarım; sayfanın büyüyerek sonsuz ölçeklenmesini önlemek için sabit responsive düzen.
 
-Kullanım:
-ZIP dosyasını çıkarıp içindeki TarihTespit_V6/index.html dosyasını tarayıcıda
-açabilir veya GitHub deposundaki index.html dosyasıyla değiştirebilirsin.
+Araştırma notu:
+Arşivdeki kelimeler ve kısa notlar araştırma adaylarıdır. Bilimsel raporda her tarihî anlam, tarihli metin ve güvenilir sözlük/akademik kaynakla doğrulanmalıdır. Test soruları eğitim amaçlıdır; demo sonuçları bilimsel bulgu değildir.
+
+
+Bu sürüm, önceki 200 kelimelik arşivde yer alan kelimeleri ve mevcut kısa açıklamaları korur. Açıklamalar tarihî kaynaklarla tek tek doğrulanmış akademik kayıtlar olarak değerlendirilmemelidir; tarihî anlamların kaynaklandırılması sonraki sürümlerde geliştirilecektir.
